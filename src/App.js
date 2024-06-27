@@ -7,7 +7,7 @@ import "./style/style.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pictureSearch">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homepages />}></Route>
